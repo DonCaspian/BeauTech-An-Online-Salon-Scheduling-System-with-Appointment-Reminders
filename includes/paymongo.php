@@ -1,13 +1,13 @@
 <?php
 
-define('PAYMONGO_SECRET_KEY', 'sk_test_EEzQb72uwow28BeTq7qRVuLC'); 
-define('PAYMONGO_PUBLIC_KEY', 'pk_test_m1H6Xk6hU9evwkRb1DbB6HKi'); 
+define('PAYMONGO_SECRET_KEY', ''); 
+define('PAYMONGO_PUBLIC_KEY', ''); 
 
 define('PAYMONGO_API_URL', 'https://api.paymongo.com/v1');
 
-define('SITE_URL', 'https://aurorasbymimie.online'); 
+define('SITE_URL', ''); 
 
-if (PAYMONGO_SECRET_KEY === 'sk_test_EEzQb72uwow28BeTq7qRVuLC') {
+if (PAYMONGO_SECRET_KEY === '') {
     error_log('WARNING: PayMongo secret key not configured! Please update includes/paymongo.php');
 }
 ?>
